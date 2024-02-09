@@ -29,11 +29,11 @@ const Home = () => {
             <FaInstagram />
           </a>
         </div>
-        <div className="content-hero absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
+        <div className="content-hero absolute top-1/2 w-full px-2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
           <h1 className="text-4xl font-bold mb-4">
             Selamat Datang di Astha Brata
           </h1>
-          <p className="text-2xl text-justify mb-8">
+          <p className="text-xl lg:text-2xl text-center lg:text-justify mb-8">
             Solusi Terpercaya untuk Perizinan dan Analisis Dampak Lalu Lintas
           </p>
           <button className="inline-flex h-10 items-center justify-center gap-2 whitespace-nowrap rounded border border-blue-500 px-5 text-sm font-medium tracking-wide text-white shadow-md shadow-blue-200 transition duration-300 hover:border-blue-600 hover:text-blue-600 hover:shadow-sm hover:shadow-blue-200 focus:border-blue-700 focus:text-blue-700 focus:shadow-sm focus:shadow-blue-200 focus-visible:outline-none disabled:cursor-not-allowed disabled:border-blue-300 disabled:text-blue-300 disabled:shadow-none">

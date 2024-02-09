@@ -15,19 +15,31 @@ const Total = () => {
   }, [count]);
 
   return (
-    <div className="flex justify-center py-16">
-      <div className="grid grid-cols-3 gap-12">
+    <div className="flex justify-center ">
+      <div className="grid grid-cols-3 gap-12 mt-10">
         <div className="text-center">
-          <h1 className="text-[#3F72AF] lg:text-5xl font-bold">{count}++</h1>
-          <p className="font-bold lg:text-3xl text-[#3F72AF]">Client</p>
+          <h1 className="text-[#F9F7F7] text-xl lg:text-5xl font-bold">
+            {count}++
+          </h1>
+          <p className="font-bold text-2xl lg:text-3xl text-[#F9F7F7]">
+            Client
+          </p>
         </div>
         <div className="text-center">
-          <h1 className="text-[#3F72AF] lg:text-5xl font-bold">{count}++</h1>
-          <p className="font-bold lg:text-3xl text-[#3F72AF]">Partner</p>
+          <h1 className="text-[#F9F7F7] text-xl lg:text-5xl font-bold">
+            {count}++
+          </h1>
+          <p className="font-bold text-2xl lg:text-3xl text-[#F9F7F7]">
+            Client
+          </p>
         </div>
         <div className="text-center">
-          <h1 className="text-[#3F72AF] lg:text-5xl font-bold">{count}++</h1>
-          <p className="font-bold lg:text-3xl text-[#3F72AF]">Region</p>
+          <h1 className="text-[#F9F7F7] text-xl lg:text-5xl font-bold">
+            {count}++
+          </h1>
+          <p className="font-bold text-2xl lg:text-3xl text-[#F9F7F7]">
+            Client
+          </p>
         </div>
       </div>
     </div>

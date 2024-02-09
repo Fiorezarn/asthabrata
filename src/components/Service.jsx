@@ -17,7 +17,7 @@ const Service = () => {
           <h1 className="text-3xl text-center font-bold text-red">
             Pelayanan Bidang Konsultan Transportasi, Konstruksi & Teknologi
           </h1>
-          <div className="lg:flex justify-center gap-5 mt-14">
+          <div className="lg:flex justify-center px-10 lg:px-0 gap-5 mt-14">
             <Card
               parent="px-5 py-10 text-center max-w-sm border-0 border-blue-700 border-b-4 lg:border-r-4 lg:border-b-0 overflow-hidden transition-transform transform hover:scale-105 hover:shadow-2xl hover:duration-700 border"
               child1="bg-silver hover:bg-[#F9F7F7]"

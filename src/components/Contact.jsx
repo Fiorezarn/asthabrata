@@ -5,7 +5,7 @@ import { Icon } from "@iconify/react";
 const Contact = () => {
   return (
     <>
-      <div className="w-full lg:px-28 py-20 bg-[#F9F7F7]" id="Contact">
+      <div className="w-full px-4 py-10 lg:px-28 lg:py-20 bg-[#F9F7F7]" id="Contact">
         <div className="grid lg:grid lg:grid-cols-2 lg:gap-10">
           <div>
             <h1 className="font-bold md:text-center text-center lg:text-left text-5xl text-[#112D4E]">
@@ -27,21 +27,21 @@ const Contact = () => {
               <div className="mt-10 mb-10 px-4 w-64 py-1 backdrop-blur-sm bg-[#DBE2EF] rounded-xl flex gap-4 mx-auto lg:mx-0">
                 <Icon className="text-3xl mt-3" icon="logos:whatsapp-icon" />
                 <div className="my-1">
-                  <p className="text-gray-100">Mail me at:</p>
+                  <p className="text-black">Mail me at:</p>
                   <a href="mailto:fiorezarn@gmail.com">fiorezarn@gmail.com</a>
                 </div>
               </div>
             </div>
           </div>
-          <div className="bg-white w-full lg:h-full rounded-xl shadow-2xl opacity-95 py-10">
-            <h1 className="font-bold text-3xl px-10 font-serif text-[#3F72AF]">
+          <div className="bg-white lg:w-full lg:h-full rounded-xl shadow-2xl opacity-95 py-10">
+            <h1 className="font-bold text-2xl lg:text-3xl px-10 font-serif text-[#3F72AF]">
               Dapatkan informasi dan penawaran dari kami
             </h1>
             <div className="py-10 px-10">
               <form>
-                <div className="flex flex-row gap-4 justify-between">
+                <div className="lg:flex lg:flex-row lg:gap-4 lg:justify-between">
                   <FloatingLabel
-                    className="mr-20"
+                    className="mr-20 mb-4 lg:mb-0"
                     variant="outlined"
                     label="Your Name"
                     type="text"
@@ -49,7 +49,7 @@ const Contact = () => {
                     required
                   />
                   <FloatingLabel
-                    className="mr-20"
+                    className="mr-20 mb-4 lg:mb-0"
                     variant="outlined"
                     label="Subject"
                     type="text"
@@ -57,9 +57,9 @@ const Contact = () => {
                     required
                   />
                 </div>
-                <div className="flex justify-between gap-4 my-4">
+                <div className="lg:flex lg:justify-between gap-4 lg:my-4">
                   <FloatingLabel
-                    className="mr-20"
+                    className="mr-20 mb-4 lg:mb-0"
                     variant="outlined"
                     label="Email"
                     type="text"
@@ -67,7 +67,7 @@ const Contact = () => {
                     required
                   />
                   <FloatingLabel
-                    className="mr-20"
+                    className="mr-20 mb-4 lg:mb-0"
                     variant="outlined"
                     label="Phone Number"
                     type="text"
