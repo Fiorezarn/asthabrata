@@ -3,6 +3,7 @@ import { FaDiceD6, FaExternalLinkAlt } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa6";
+import { Icon } from "@iconify/react";
 import Total from "../components/Total";
 
 const Home = () => {
@@ -11,22 +12,22 @@ const Home = () => {
       <div className="hero relative w-full text-white">
         <div className="absolute space-x-6 right-4 bottom-6">
           <a
-            className="text-white hover:text-purple-400 text-3xl"
+            className="text-white text-3xl"
             href="https://github.com/fiorezarn"
           >
-            <FaGithub />
+            <Icon icon="logos:whatsapp-icon" />
           </a>
           <a
-            className="text-white hover:text-purple-400 text-3xl"
+            className="text-white text-3xl"
             href="https://www.linkedin.com/in/fiorezarn"
           >
-            <FaLinkedin />
+            <Icon icon="skill-icons:linkedin" />
           </a>
           <a
-            className="text-white hover:text-purple-400 text-3xl"
+            className="text-white text-3xl"
             href="https://www.instagram.com/fiorezaa/"
           >
-            <FaInstagram />
+            <Icon icon="skill-icons:instagram" />
           </a>
         </div>
         <div className="content-hero absolute top-1/2 w-full px-2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">

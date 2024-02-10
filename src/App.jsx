@@ -8,6 +8,7 @@ import Maps from "./components/Maps";
 import Portofolio from "./components/Portofolio";
 import Carousel from "./components/Carousel/Carousel";
 import Reason from "./components/Reason";
+import Faq from "./components/Faq";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
       <Portofolio />
       <Carousel />
       <Contact />
+      <Faq />
       <Maps />
       <Footer />
     </>
