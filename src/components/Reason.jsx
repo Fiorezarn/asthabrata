@@ -10,16 +10,20 @@ const Reason = () => {
           <div>
             <h1 className="font-serif py-2">Kenapa Harus Kami?</h1>
             <h1 className="text-blue-900 font-bold text-4xl py-2">
-              Proses Manajerial Profesional
+              PENDEKATAN KOLABORATIF
             </h1>
             <p className="text-justify py-2 text-lg">
-              <span className="font-bold text-blue-900">Astha Brata</span>{" "}
-              memiliki sumber daya manusia yang profesional, berpengalaman atas
-              pekerjaan yang dibidanginya. Kekuatan dari perusahaan konsultan
-              adalah sumber daya manusianya, karena hal tersebut{" "}
+              Kami percaya dalam membangun hubungan yang kuat dengan setiap
+              klien kami, dengan mengadopsi pendekatan kolaboratif yang
+              memungkinkan kami untuk memahami kebutuhan unik perusahaan Anda.
+              {/* <span className="font-bold text-blue-900">Astha Brata</span>{" "}
+              memiliki tenaga ahli yang profesional, dengan pengalaman dan
+              komitmen keras atas pekerjaanya. Perusahaan dengan segala dukungan
+              konsultan dan kemitraannya dasSIAP pada apa yang dikerjakannya ,
+              karena hal tersebut{" "}
               <span className="font-bold text-blue-900">Astha Brata</span>{" "}
               selaku perusahaan yang menaungi mereka, menjalankan proses
-              manajerial yang profesional.
+              manajerial yang profesional. */}
             </p>
             <Accordion className="mt-6">
               <Accordion.Panel>

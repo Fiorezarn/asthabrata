@@ -21,14 +21,14 @@ const Contact = () => {
                 />
                 <div className="my-1">
                   <p className="text-black">Mail me at:</p>
-                  <a href="mailto:fiorezarn@gmail.com">fiorezarn@gmail.com</a>
+                  <a href="mailto:fiorezarn@gmail.com">asthabrata@gmail.com</a>
                 </div>
               </div>
               <div className="mt-10 mb-10 px-4 w-64 py-1 backdrop-blur-sm bg-[#DBE2EF] rounded-xl flex gap-4 mx-auto lg:mx-0">
                 <Icon className="text-3xl mt-3" icon="logos:whatsapp-icon" />
                 <div className="my-1">
-                  <p className="text-black">Mail me at:</p>
-                  <a href="mailto:fiorezarn@gmail.com">fiorezarn@gmail.com</a>
+                  <p className="text-black">Call me at:</p>
+                  <a href="mailto:fiorezarn@gmail.com">123123123123</a>
                 </div>
               </div>
             </div>

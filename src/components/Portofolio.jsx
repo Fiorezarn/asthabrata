@@ -2,6 +2,7 @@ import React from "react";
 import Konstruksi1 from "../assets/konstruksi.jpg";
 import Konstruksi2 from "../assets/konstruksi2.jpg";
 import Konstruksi3 from "../assets/konstruksi3.jpg";
+import Konstruksi4 from "../assets/konstruksi4.jpg";
 
 const Portofolio = () => {
   return (
@@ -31,7 +32,7 @@ const Portofolio = () => {
           </div>
           <div className="col-span-1 md:col-span-1 row-span-1 justify-center items-center relative">
             <img
-              src={Konstruksi3}
+              src={Konstruksi4}
               alt=""
               className="w-full h-full object-cover rounded-lg shadow-2xl transform hover:scale-105 transition-transform duration-500"
             />

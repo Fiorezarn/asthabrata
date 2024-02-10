@@ -1,8 +1,5 @@
 import backgroundImage from "../assets/background.jpeg";
 import { FaDiceD6, FaExternalLinkAlt } from "react-icons/fa";
-import { FaGithub } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
-import { FaInstagram } from "react-icons/fa6";
 import { Icon } from "@iconify/react";
 import Total from "../components/Total";
 
@@ -35,7 +32,8 @@ const Home = () => {
             Selamat Datang di Astha Brata
           </h1>
           <p className="text-xl lg:text-2xl text-center mb-8">
-            Solusi Terpercaya untuk Perizinan dan Analisis Dampak Lalu Lintas
+            <span className="text-[#DBE2EF]">Astha Brata</span> - Membangun
+            Solusi Bersama untuk Masa Depan Bisnis Anda.
           </p>
           <button className="inline-flex h-10 items-center justify-center gap-2 whitespace-nowrap rounded border border-blue-500 px-5 text-sm font-medium tracking-wide text-white shadow-md shadow-blue-200 transition duration-300 hover:border-blue-600 hover:text-blue-600 hover:shadow-sm hover:shadow-blue-200 focus:border-blue-700 focus:text-blue-700 focus:shadow-sm focus:shadow-blue-200 focus-visible:outline-none disabled:cursor-not-allowed disabled:border-blue-300 disabled:text-blue-300 disabled:shadow-none">
             <span>Explore Now</span>
