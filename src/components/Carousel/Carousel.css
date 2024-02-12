@@ -9,6 +9,11 @@
   height: 250px;
 }
 
+@media screen and (max-width: 940px) {
+  .swiper-wrapper {
+    height: 400px;
+  }
+}
 @media screen and (min-width: 640px) {
   .swiper-wrapper {
     height: 360px;
@@ -34,7 +39,6 @@
 .swiper-slide-prev {
   transform: scale(50%);
 }
-
 
 .swiper-pagination {
   position: inherit;

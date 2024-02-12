@@ -79,9 +79,12 @@ const Navbar = () => {
             key={item.id}
             className="p-4 border-b rounded-xl hover:bg-[#112D4E] duration-300 hover:text-black cursor-pointer border-gray-600"
           >
-            <a className="text-white hover:text-black" href={`#${item.text}`}>
+            <Link
+              to={item.brand}
+              className="text-white hover:text-white font-bold"
+            >
               {item.text}
-            </a>
+            </Link>
           </li>
         ))}
       </ul>
