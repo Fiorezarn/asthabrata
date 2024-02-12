@@ -6,7 +6,7 @@ import Total from "../components/Total";
 const Home = () => {
   return (
     <>
-      <div className="hero relative w-full text-white">
+      <div className="hero relative w-full text-white" id="Home">
         <div className="absolute space-x-6 right-4 bottom-6">
           <a
             className="text-white text-3xl"

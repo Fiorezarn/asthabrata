@@ -8,7 +8,7 @@ import "./Pricing.css";
 
 function Pricing() {
   return (
-    <div className="w-full px-4 py-20">
+    <div className="w-full px-4 py-20" id="pricing">
       <div className="flex items-center">
         <div className="flex-1 bg-[#3F72AF] h-[3px]" />
         <p className="mx-4 text-[#3F72AF] text-4xl font-bold">Pricing Table</p>
@@ -48,10 +48,14 @@ function Pricing() {
               </h5>
               <div className="flex items-baseline text-gray-900 dark:text-white">
                 <span className="text-3xl font-semibold">Rp</span>
-                <span className="text-5xl font-extrabold tracking-tight">
-                  45
-                </span>
-                <span className="text-gray-500 dark:text-gray-400">jt</span>
+                <div className="flex items-center">
+                  <span className="text-5xl font-extrabold tracking-tight mr-1">
+                    45
+                  </span>
+                  <span className="text-gray-500 dark:text-gray-400 mb-6">
+                    jt
+                  </span>
+                </div>
                 <span className="ml-1 text-xl font-normal text-gray-500 dark:text-gray-400">
                   /Project
                 </span>
@@ -158,10 +162,14 @@ function Pricing() {
               </h5>
               <div className="flex items-baseline text-gray-900 dark:text-white">
                 <span className="text-3xl font-semibold">Rp</span>
-                <span className="text-5xl font-extrabold tracking-tight">
-                  55
-                </span>
-                <span className="text-gray-500 dark:text-gray-400">jt</span>
+                <div className="flex items-center">
+                  <span className="text-5xl font-extrabold tracking-tight mr-1">
+                    55
+                  </span>
+                  <span className="text-gray-500 dark:text-gray-400 mb-6">
+                    jt
+                  </span>
+                </div>
                 <span className="ml-1 text-xl font-normal text-gray-500 dark:text-gray-400">
                   /Project
                 </span>
@@ -268,10 +276,14 @@ function Pricing() {
               </h5>
               <div className="flex items-baseline text-gray-900 dark:text-white">
                 <span className="text-3xl font-semibold">Rp</span>
-                <span className="text-5xl font-extrabold tracking-tight">
-                  75
-                </span>
-                <span className="text-gray-500 dark:text-gray-400">jt</span>
+                <div className="flex items-center">
+                  <span className="text-5xl font-extrabold tracking-tight mr-1">
+                    75
+                  </span>
+                  <span className="text-gray-500 dark:text-gray-400 mb-6">
+                    jt
+                  </span>
+                </div>
                 <span className="ml-1 text-xl font-normal text-gray-500 dark:text-gray-400">
                   /Project
                 </span>
@@ -378,10 +390,14 @@ function Pricing() {
               </h5>
               <div className="flex items-baseline text-gray-900 dark:text-white">
                 <span className="text-3xl font-semibold">Rp</span>
-                <span className="text-5xl font-extrabold tracking-tight">
-                  125
-                </span>
-                <span className="text-gray-500 dark:text-gray-400">jt</span>
+                <div className="flex items-center">
+                  <span className="text-5xl font-extrabold tracking-tight mr-1">
+                    125
+                  </span>
+                  <span className="text-gray-500 dark:text-gray-400 mb-6">
+                    jt
+                  </span>
+                </div>
                 <span className="ml-1 text-xl font-normal text-gray-500 dark:text-gray-400">
                   /Project
                 </span>
@@ -488,10 +504,14 @@ function Pricing() {
               </h5>
               <div className="flex items-baseline text-gray-900 dark:text-white">
                 <span className="text-3xl font-semibold">Rp</span>
-                <span className="text-5xl font-extrabold tracking-tight">
-                  80
-                </span>
-                <span className="text-gray-500 dark:text-gray-400">jt</span>
+                <div className="flex items-center">
+                  <span className="text-5xl font-extrabold tracking-tight mr-1">
+                    80
+                  </span>
+                  <span className="text-gray-500 dark:text-gray-400 mb-6">
+                    jt
+                  </span>
+                </div>
                 <span className="ml-1 text-xl font-normal text-gray-500 dark:text-gray-400">
                   /Project
                 </span>

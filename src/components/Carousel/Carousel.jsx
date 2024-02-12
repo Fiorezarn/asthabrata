@@ -1,8 +1,6 @@
 import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
-import { Icon } from "@iconify/react";
 import { Autoplay, Pagination, Navigation } from "swiper/modules";
-import Konstruksi1 from "../../assets/konstruksi.jpg";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/navigation";
@@ -20,7 +18,7 @@ import Mitsubisi from "../../assets/mitsubisi.png";
 const Carousel = () => {
   return (
     <>
-      <div className="w-full ">
+      <div className="w-full" id="client">
         <Swiper
           spaceBetween={10}
           slidesPerView={1}

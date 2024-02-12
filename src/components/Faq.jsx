@@ -1,7 +1,7 @@
 const Faq = () => {
   return (
     <>
-      <div className="bg-white w-full  lg:h-screen py-20 px-4 lg:px-28">
+      <div className="bg-white w-full  lg:h-screen py-20 px-4 lg:px-28" id="faq">
         <h1 className="text-4xl text-center font-bold">
           <span className="text-blue-900">Pertanyaan yang Sering Diajukan</span>
         </h1>

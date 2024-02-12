@@ -7,7 +7,7 @@ import Konstruksi4 from "../assets/konstruksi4.jpg";
 const Portofolio = () => {
   return (
     <>
-      <div className="w-full py-10 px-8 sm:px-36 bg-[#3F72AF]">
+      <div className="w-full py-10 px-8 sm:px-36 bg-[#3F72AF]" id="documentation">
         <div className="grid grid-cols-1 md:grid-cols-3 grid-rows-2 gap-4">
           <div className="col-span-1 md:col-span-1 row-span-2 justify-center items-center relative">
             <img

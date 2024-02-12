@@ -1,4 +1,8 @@
 import React from "react";
+import { Icon } from "@iconify/react";
+import { FaInstagram } from "react-icons/fa";
+import { FaWhatsapp } from "react-icons/fa6";
+import { FaLinkedin } from "react-icons/fa6";
 
 export default function FooterFiveColsLogo() {
   return (
@@ -26,7 +30,7 @@ export default function FooterFiveColsLogo() {
                     viewBox="0 0 300 300"
                     fill="none"
                     xmlns="http://www.w3.org/2000/svg"
-                    className="h-6 w-6 shrink-0 bg-emerald-500"
+                    className="h-6 w-6 shrink-0 bg-[#3F72AF]"
                   >
                     <path
                       fillRule="evenodd"
@@ -66,32 +70,24 @@ export default function FooterFiveColsLogo() {
                 <ul>
                   <li className="mb-2 leading-6">
                     <a
-                      href="javascript:void(0)"
-                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600"
+                      href="#service"
+                      className="transition-colors duration-300 hover:text-[#3F72AF] focus:text-[#3F72AF]"
                     >
-                      Features
+                      Service
                     </a>
                   </li>
                   <li className="mb-2 leading-6">
                     <a
-                      href="javascript:void(0)"
-                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600"
+                      href="#client"
+                      className="transition-colors duration-300 hover:text-[#3F72AF] focus:text-[#3F72AF]"
                     >
                       Customers
                     </a>
                   </li>
                   <li className="mb-2 leading-6">
                     <a
-                      href="javascript:void(0)"
-                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600"
-                    >
-                      Why us?
-                    </a>
-                  </li>
-                  <li className="mb-2 leading-6">
-                    <a
-                      href="javascript:void(0)"
-                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600"
+                      href="#pricing"
+                      className="transition-colors duration-300 hover:text-[#3F72AF] focus:text-[#3F72AF]"
                     >
                       Pricing
                     </a>
@@ -111,40 +107,24 @@ export default function FooterFiveColsLogo() {
                 <ul>
                   <li className="mb-2 leading-6">
                     <a
-                      href="javascript:void(0)"
-                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600"
+                      href="#documentation"
+                      className="transition-colors duration-300 hover:text-[#3F72AF] focus:text-[#3F72AF]"
                     >
                       Documentation
                     </a>
                   </li>
                   <li className="mb-2 leading-6">
                     <a
-                      href="javascript:void(0)"
-                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600"
-                    >
-                      Training
-                    </a>
-                  </li>
-                  <li className="mb-2 leading-6">
-                    <a
-                      href="javascript:void(0)"
-                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600"
-                    >
-                      System status
-                    </a>
-                  </li>
-                  <li className="mb-2 leading-6">
-                    <a
-                      href="javascript:void(0)"
-                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600"
+                      href="#faq"
+                      className="transition-colors duration-300 hover:text-[#3F72AF] focus:text-[#3F72AF]"
                     >
                       FAQ's
                     </a>
                   </li>
                   <li className="mb-2 leading-6">
                     <a
-                      href="javascript:void(0)"
-                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600"
+                      href="#contact"
+                      className="transition-colors duration-300 hover:text-[#3F72AF] focus:text-[#3F72AF]"
                     >
                       Help Center
                     </a>
@@ -165,41 +145,9 @@ export default function FooterFiveColsLogo() {
                   <li className="mb-2 leading-6">
                     <a
                       href="javascript:void(0)"
-                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600"
+                      className="transition-colors duration-300 hover:text-[#3F72AF] focus:text-[#3F72AF]"
                     >
                       About us
-                    </a>
-                  </li>
-                  <li className="mb-2 leading-6">
-                    <a
-                      href="javascript:void(0)"
-                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600"
-                    >
-                      Careers
-                    </a>
-                  </li>
-                  <li className="mb-2 leading-6">
-                    <a
-                      href="javascript:void(0)"
-                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600"
-                    >
-                      Leadership
-                    </a>
-                  </li>
-                  <li className="mb-2 leading-6">
-                    <a
-                      href="javascript:void(0)"
-                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600"
-                    >
-                      Blog
-                    </a>
-                  </li>
-                  <li className="mb-2 leading-6">
-                    <a
-                      href="javascript:void(0)"
-                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600"
-                    >
-                      Events
                     </a>
                   </li>
                 </ul>
@@ -217,34 +165,10 @@ export default function FooterFiveColsLogo() {
                 <ul>
                   <li className="mb-2 leading-6">
                     <a
-                      href="javascript:void(0)"
-                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600"
+                      href="#contact"
+                      className="transition-colors duration-300 hover:text-[#3F72AF] focus:text-[#3F72AF]"
                     >
                       Contact
-                    </a>
-                  </li>
-                  <li className="mb-2 leading-6">
-                    <a
-                      href="javascript:void(0)"
-                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600"
-                    >
-                      Support
-                    </a>
-                  </li>
-                  <li className="mb-2 leading-6">
-                    <a
-                      href="javascript:void(0)"
-                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600"
-                    >
-                      Partners
-                    </a>
-                  </li>
-                  <li className="mb-2 leading-6">
-                    <a
-                      href="javascript:void(0)"
-                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600"
-                    >
-                      Join research
                     </a>
                   </li>
                 </ul>
@@ -252,42 +176,42 @@ export default function FooterFiveColsLogo() {
             </div>
           </div>
         </div>
-        <div className="border-t border-slate-200 bg-slate-100 py-4 text-sm">
-          <div className="container mx-auto px-6">
-            <div className="grid grid-cols-4 items-center gap-6 md:grid-cols-8 lg:grid-cols-12">
-              <p className="col-span-1 flex items-center gap-2 whitespace-nowrap text-base font-medium leading-6 focus:outline-none md:col-span-4 lg:col-span-6">
-                Copyright © 2024 Astha Brata.
-              </p>
+        <div className="py-4 text-sm border-t border-1 bg-gray-200">
+          <div className="container px-6 mx-auto">
+            <div className="flex justify-between lg:grid md:grid gap-6 md:grid-cols-8 lg:grid-cols-12">
+              <div className="col-span-2 md:col-span-4 lg:col-span-6">
+                Copyright 2024 Astha Brata
+              </div>
               <nav
-                className="col-span-3 md:col-span-4 lg:col-span-6"
-                aria-labelledby="subfooter-links-5-logo-sub"
+                aria-labelledby="footer-social-links-light"
+                className="col-span-2 text-right md:col-span-4 lg:col-span-6"
               >
-                <h3 className="sr-only" id="subfooter-links-5-logo-sub">
-                  Get in touch
-                </h3>
-                <ul className="flex flex-wrap items-center justify-end gap-2 lg:gap-4">
-                  <li className="leading-6">
+                <h2 className="sr-only" id="footer-social-links-light">
+                  Social Media Links
+                </h2>
+                <ul className="flex items-center justify-end gap-4">
+                  <li>
                     <a
-                      href="javascript:void(0)"
-                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600"
+                      href=""
+                      className="transition-colors duration-300 hover:text-[#3F72AF] focus:text-[#3F72AF] text-xl"
                     >
-                      T&C
+                      <FaInstagram />
                     </a>
                   </li>
-                  <li className="leading-6">
+                  <li>
                     <a
-                      href="javascript:void(0)"
-                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600"
+                      href=""
+                      className="transition-colors duration-300 hover:text-[#3F72AF] focus:text-[#3F72AF] text-xl"
                     >
-                      Privacy
+                      <FaWhatsapp />
                     </a>
                   </li>
-                  <li className="leading-6">
+                  <li>
                     <a
-                      href="javascript:void(0)"
-                      className="transition-colors duration-300 hover:text-emerald-500 focus:text-emerald-600"
+                      href=""
+                      className="transition-colors duration-300 hover:text-[#3F72AF] focus:text-[#3F72AF] text-xl"
                     >
-                      Cookies
+                      <FaLinkedin />
                     </a>
                   </li>
                 </ul>

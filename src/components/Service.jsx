@@ -1,14 +1,16 @@
 import { Button, Modal } from "flowbite-react";
 import { Icon } from "@iconify/react";
 import { useState } from "react";
-import { MdReadMore } from "react-icons/md";
+import { IoMdOpen } from "react-icons/io";
 
 const Service = () => {
-  const [openModal, setOpenModal] = useState(false);
+  const [openModalAndalalin, setOpenModalAndalalin] = useState(false);
+  const [openModalAmdal, setOpenModalAmdal] = useState(false);
+  const [openModalSlf, setOpenModalSlf] = useState(false);
 
   return (
     <>
-      <div className="w-full py-20 px-4 lg:px-28 bg-[#F9F7F7]">
+      <div className="w-full py-20 px-4 lg:px-28 bg-[#F9F7F7]" id="service">
         <div className="content text-[#3F72AF]">
           <h1 className="text-3xl text-center font-bold">Our Service</h1>
           <span className="line"></span>
@@ -26,19 +28,19 @@ const Service = () => {
                 </h1>
                 <Button
                   className="mx-auto mt-20 bg-[#112D4E]"
-                  onClick={() => setOpenModal(true)}
+                  onClick={() => setOpenModalAndalalin(true)}
                 >
                   Read More{" "}
                   <span className="text-lg ml-2">
-                    <MdReadMore />
+                    <IoMdOpen />
                   </span>
                 </Button>
                 <Modal
                   dismissible
-                  show={openModal}
-                  onClose={() => setOpenModal(false)}
+                  show={openModalAndalalin}
+                  onClose={() => setOpenModalAndalalin(false)}
                 >
-                  <Modal.Header>Terms of Service</Modal.Header>
+                  <Modal.Header>Andalalin</Modal.Header>
                   <Modal.Body>
                     <div className="space-y-6">
                       <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
@@ -57,14 +59,6 @@ const Service = () => {
                       </p>
                     </div>
                   </Modal.Body>
-                  <Modal.Footer>
-                    <Button onClick={() => setOpenModal(false)}>
-                      I accept
-                    </Button>
-                    <Button color="gray" onClick={() => setOpenModal(false)}>
-                      Decline
-                    </Button>
-                  </Modal.Footer>
                 </Modal>
               </div>
             </div>
@@ -78,19 +72,19 @@ const Service = () => {
                 </h1>
                 <Button
                   className="mx-auto mt-20 bg-[#112D4E]"
-                  onClick={() => setOpenModal(true)}
+                  onClick={() => setOpenModalAmdal(true)}
                 >
                   Read More{" "}
                   <span className="text-lg ml-2">
-                    <MdReadMore />
+                    <IoMdOpen />
                   </span>
                 </Button>
                 <Modal
                   dismissible
-                  show={openModal}
-                  onClose={() => setOpenModal(false)}
+                  show={openModalAmdal}
+                  onClose={() => setOpenModalAmdal(false)}
                 >
-                  <Modal.Header>Terms of Service</Modal.Header>
+                  <Modal.Header>RKL - RPL, UKL - UPL, AMDAL</Modal.Header>
                   <Modal.Body>
                     <div className="space-y-6">
                       <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
@@ -109,14 +103,6 @@ const Service = () => {
                       </p>
                     </div>
                   </Modal.Body>
-                  <Modal.Footer>
-                    <Button onClick={() => setOpenModal(false)}>
-                      I accept
-                    </Button>
-                    <Button color="gray" onClick={() => setOpenModal(false)}>
-                      Decline
-                    </Button>
-                  </Modal.Footer>
                 </Modal>
               </div>
             </div>
@@ -130,19 +116,19 @@ const Service = () => {
                 </h1>
                 <Button
                   className="mx-auto mt-20 bg-[#112D4E]"
-                  onClick={() => setOpenModal(true)}
+                  onClick={() => setOpenModalSlf(true)}
                 >
                   Read More{" "}
                   <span className="text-lg ml-2">
-                    <MdReadMore />
+                    <IoMdOpen />
                   </span>
                 </Button>
                 <Modal
                   dismissible
-                  show={openModal}
-                  onClose={() => setOpenModal(false)}
+                  show={openModalSlf}
+                  onClose={() => setOpenModalSlf(false)}
                 >
-                  <Modal.Header>Terms of Service</Modal.Header>
+                  <Modal.Header>SLF & PBG</Modal.Header>
                   <Modal.Body>
                     <div className="space-y-6">
                       <p className="text-base leading-relaxed text-gray-500 dark:text-gray-400">
@@ -161,14 +147,6 @@ const Service = () => {
                       </p>
                     </div>
                   </Modal.Body>
-                  <Modal.Footer>
-                    <Button onClick={() => setOpenModal(false)}>
-                      I accept
-                    </Button>
-                    <Button color="gray" onClick={() => setOpenModal(false)}>
-                      Decline
-                    </Button>
-                  </Modal.Footer>
                 </Modal>
               </div>
             </div>

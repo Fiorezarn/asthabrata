@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { AiOutlineClose, AiOutlineMenu } from "react-icons/ai";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [nav, setNav] = useState(false);
@@ -20,8 +21,8 @@ const Navbar = () => {
   };
 
   const navItems = [
-    { id: 1, text: "Beranda" },
-    { id: 2, text: "Tentang Kami" },
+    { id: 1, text: "Beranda", brand: "/#Home" },
+    { id: 2, text: "Tentang Kami", brand: "/About/#About" },
     { id: 3, text: "Hubungi Kami" },
   ];
 
@@ -44,12 +45,12 @@ const Navbar = () => {
             className="p-4 hover:bg-[#112D4E] rounded-xl cursor-pointer duration-300"
             style={{ minWidth: "fit-content" }}
           >
-            <a
+            <Link
+              to={item.brand}
               className="text-white hover:text-white font-bold"
-              href={`#${item.text}`}
             >
               {item.text}
-            </a>
+            </Link>
           </li>
         ))}
       </ul>
