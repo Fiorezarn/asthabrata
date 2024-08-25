@@ -1,4 +1,4 @@
-import backgroundImage from "../assets/background.jpeg";
+import backgroundImage from "../assets/highway.jpg";
 import { FaDiceD6, FaExternalLinkAlt } from "react-icons/fa";
 import { Icon } from "@iconify/react";
 import Total from "../components/Total";
