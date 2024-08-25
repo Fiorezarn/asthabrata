@@ -5,7 +5,10 @@ import { Icon } from "@iconify/react";
 const Contact = () => {
   return (
     <>
-      <div className="w-full px-4 py-10 lg:px-28 lg:py-20 bg-[#F9F7F7]" id="contact">
+      <div
+        className="w-full px-4 py-10 lg:px-28 lg:py-20 bg-[#F9F7F7]"
+        id="contact"
+      >
         <div className="grid lg:grid lg:grid-cols-2 lg:gap-10">
           <div>
             <h1 className="font-bold md:text-center text-center lg:text-left text-5xl text-[#112D4E]">

@@ -1,5 +1,5 @@
 import Konstruksi1 from "../assets/konstruksi.jpg";
-import Konstruksi2 from "../assets/konstruksi2.jpg";
+import Konstruksi2 from "../assets/broco.png";
 import Konstruksi3 from "../assets/konstruksi3.jpg";
 import Background from "../assets/backgroundgradient.png";
 import { FaExternalLinkAlt } from "react-icons/fa";
@@ -8,7 +8,8 @@ const Tentang = () => {
   return (
     <>
       <div
-        className="w-full bg-gradient-to-br from-[#0D2143] to-[#3F72AF] py-32 lg:py-28 px-8 sm:px-36 relative" id="About"
+        className="w-full bg-gradient-to-br from-[#0D2143] to-[#3F72AF] py-32 lg:py-28 px-8 sm:px-36 relative"
+        id="About"
         style={{
           backgroundImage: `url(${Background})`,
           backgroundSize: "cover",

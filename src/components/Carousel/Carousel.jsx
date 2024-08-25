@@ -14,10 +14,15 @@ import Shell from "../../assets/shell.png";
 import Akr from "../../assets/akr.png";
 import Hokben from "../../assets/hokben.png";
 import Mitsubisi from "../../assets/mitsubisi.png";
+import Broco from "../../assets/logobroco.png";
 
 const Carousel = () => {
   return (
     <>
+      <h1 className="text-3xl text-center font-bold mt-10">
+        <span className="text-[#3F72AF]">OUR</span>
+        <span className="text-[#112D4E]"> CLIENT</span>
+      </h1>
       <div className="w-full" id="client">
         <Swiper
           spaceBetween={10}
@@ -68,6 +73,9 @@ const Carousel = () => {
           </SwiperSlide>
           <SwiperSlide>
             <img className="w-3/6 h-[100px]" src={Mitsubisi} alt="" />
+          </SwiperSlide>
+          <SwiperSlide>
+            <img className="w-3/6 h-[100px]" src={Broco} alt="" />
           </SwiperSlide>
         </Swiper>
       </div>

@@ -2,8 +2,12 @@ import backgroundImage from "../assets/background.jpeg";
 import { FaDiceD6, FaExternalLinkAlt } from "react-icons/fa";
 import { Icon } from "@iconify/react";
 import Total from "../components/Total";
+import { useSelector } from "react-redux";
+import { selectLanguageData } from "../redux-toolkit/languageSlice";
 
 const Home = () => {
+  const languageData = useSelector(selectLanguageData);
+
   return (
     <>
       <div className="hero relative w-full text-white" id="Home">
@@ -28,12 +32,10 @@ const Home = () => {
           </a>
         </div>
         <div className="content-hero absolute top-1/2 w-full px-2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-center">
-          <h1 className="text-4xl font-bold mb-4">
-            Selamat Datang di Astha Brata
-          </h1>
+          <h1 className="text-4xl font-bold mb-4">{languageData.welcome}</h1>
           <p className="text-xl lg:text-2xl text-center mb-8">
-            <span className="text-[#DBE2EF]">Astha Brata</span> - Membangun
-            Solusi Bersama untuk Masa Depan Bisnis Anda.
+            <span className="text-[#DBE2EF]">Astha Brata</span> -{" "}
+            {languageData.hero}
           </p>
           <button className="inline-flex h-10 items-center justify-center gap-2 whitespace-nowrap rounded border border-blue-500 px-5 text-sm font-medium tracking-wide text-white shadow-md shadow-blue-200 transition duration-300 hover:border-blue-600 hover:text-blue-600 hover:shadow-sm hover:shadow-blue-200 focus:border-blue-700 focus:text-blue-700 focus:shadow-sm focus:shadow-blue-200 focus-visible:outline-none disabled:cursor-not-allowed disabled:border-blue-300 disabled:text-blue-300 disabled:shadow-none">
             <span>Explore Now</span>

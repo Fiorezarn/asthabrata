@@ -1,52 +1,49 @@
 import React from "react";
 import { Accordion } from "flowbite-react";
 import konstruksi from "../assets/konstruksi.jpg";
+import { useSelector } from "react-redux";
+import { selectLanguageData } from "../redux-toolkit/languageSlice";
 
 const Reason = () => {
+  const languageData = useSelector(selectLanguageData);
   return (
     <>
       <div className="w-full lg:h-screen py-10 lg:px-20 px-4 bg-[#F9F7F7]">
         <div className="flex flex-col-reverse lg:grid lg:grid-cols-2 gap-6">
           <div>
-            <h1 className="font-serif py-2">Kenapa Harus Kami?</h1>
+            <h1 className="font-serif py-2">{languageData.why}</h1>
             <h1 className="text-blue-900 font-bold text-4xl py-2">
-              PENDEKATAN KOLABORATIF
+              {languageData.closer}
             </h1>
-            <p className="text-justify py-2 text-lg">
-              Kami percaya dalam membangun hubungan yang kuat dengan setiap
-              klien kami, dengan mengadopsi pendekatan kolaboratif yang
-              memungkinkan kami untuk memahami kebutuhan unik perusahaan Anda.
-            </p>
+            <p className="text-justify py-2 text-lg">{languageData.reason}</p>
             <Accordion className="mt-6">
               <Accordion.Panel>
-                <Accordion.Title>Komitmen Terhadap Kualitas</Accordion.Title>
+                <Accordion.Title>
+                  {languageData.accordion_title_1}
+                </Accordion.Title>
                 <Accordion.Content>
                   <p className="mb-2 text-gray-500 dark:text-gray-400">
-                    Kami tidak hanya berkomitmen untuk memberikan layanan yang
-                    berkualitas tinggi, tetapi juga untuk menjaga kualitas
-                    tersebut melalui proses pengembangan dan pemeliharaan yang
-                    cermat.
+                    {languageData.accordion_1}
                   </p>
                 </Accordion.Content>
               </Accordion.Panel>
               <Accordion.Panel>
-                <Accordion.Title>Tim Profesional</Accordion.Title>
+                <Accordion.Title>
+                  {languageData.accordion_title_2}
+                </Accordion.Title>
                 <Accordion.Content>
                   <p className="mb-2 text-gray-500 dark:text-gray-400">
-                    Tim kami terdiri dari para profesional berpengalaman yang
-                    memiliki pengetahuan yang mendalam dalam berbagai bidang
-                    teknologi informasi. Mereka siap untuk memberikan solusi
-                    terbaik untuk menunjang kesuksesan bisnis Anda.
+                    {languageData.accordion_2}
                   </p>
                 </Accordion.Content>
               </Accordion.Panel>
               <Accordion.Panel>
-                <Accordion.Title>Keahlian yang Teruji</Accordion.Title>
+                <Accordion.Title>
+                  {languageData.accordion_title_3}
+                </Accordion.Title>
                 <Accordion.Content>
                   <p className="mb-2 text-gray-500 dark:text-gray-400">
-                    Tim ahli kami memiliki pengalaman yang luas dan keahlian
-                    yang teruji dalam bidang perizinan dan analisis dampak lalu
-                    lintas.
+                    {languageData.accordion_3}
                   </p>
                 </Accordion.Content>
               </Accordion.Panel>

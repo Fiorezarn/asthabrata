@@ -7,6 +7,9 @@ export default {
   ],
   theme: {
     extend: {},
+    fontFamily: {
+      roboto: ["Roboto", "sans-serif"],
+    },
   },
   // eslint-disable-next-line no-undef
   plugins: [require("flowbite/plugin")],
