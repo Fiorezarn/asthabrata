@@ -31,7 +31,7 @@ const Contact = () => {
                 <Icon className="text-3xl mt-3" icon="logos:whatsapp-icon" />
                 <div className="my-1">
                   <p className="text-black">Call me at:</p>
-                  <a href="mailto:fiorezarn@gmail.com">123123123123</a>
+                  <a href="https://wa.me/+62895632980009">0895632980009</a>
                 </div>
               </div>
             </div>
