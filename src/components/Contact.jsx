@@ -8,49 +8,54 @@ const Contact = () => {
    <div
     className='w-full px-4 py-10 lg:px-28 lg:py-20 bg-[#F9F7F7] rounded-xl'
     id='contact'>
-    <div className='grid lg:grid lg:grid-cols-2 lg:gap-10'>
+    <div className='grid lg:grid-cols-2 lg:gap-10 gap-8'>
      <div>
-      <h1 className='font-bold md:text-center text-center lg:text-left text-5xl text-[#112D4E]'>
-       <span className='text-[#3F72AF] text-2xl'>Hubungi Kami</span>
+      <h1 className='font-bold text-center lg:text-left text-3xl sm:text-4xl lg:text-5xl text-[#112D4E]'>
+       <span className='text-[#3F72AF] text-xl sm:text-2xl'>Hubungi Kami</span>
        <br />
        Konsultasikan kebutuhan Anda Sekarang
       </h1>
-      <div className='lg:grid lg:grid-cols-2'>
-       <div className='mt-10 mb-10 px-4 w-64 py-1 backdrop-blur-sm bg-[#DBE2EF] rounded-xl flex gap-4 mx-auto lg:mx-0'>
+      <div className='flex flex-col sm:grid sm:grid-cols-1 lg:grid-cols-2 gap-4 mt-8'>
+       <div className='px-4 py-3 backdrop-blur-sm bg-[#DBE2EF] rounded-xl flex gap-4 w-full max-w-sm mx-auto lg:mx-0'>
         <Icon
-         className='text-3xl mt-3'
+         className='text-3xl flex-shrink-0'
          icon='skill-icons:gmail-light'
         />
-        <div className='my-1'>
-         <p className='text-black'>Mail me at:</p>
-         <a href='mailto:fiorezarn@gmail.com'>asthabrata@gmail.com</a>
+        <div className='min-w-0 flex-1'>
+         <p className='text-black text-sm'>Mail me at:</p>
+         <a
+          href='mailto:asthabrata@gmail.com'
+          className='text-sm break-all hover:text-[#3F72AF]'>
+          asthabrata@gmail.com
+         </a>
         </div>
        </div>
-       <div className='mt-10 mb-10 px-4 w-64 py-1 backdrop-blur-sm bg-[#DBE2EF] rounded-xl flex gap-4 mx-auto lg:mx-0'>
+       <div className='px-4 py-3 backdrop-blur-sm bg-[#DBE2EF] rounded-xl flex gap-4 w-full max-w-sm mx-auto lg:mx-0'>
         <Icon
-         className='text-3xl mt-3'
+         className='text-3xl flex-shrink-0'
          icon='logos:whatsapp-icon'
         />
-        <div className='my-1'>
-         <p className='text-black'>Call me at:</p>
+        <div className='min-w-0 flex-1'>
+         <p className='text-black text-sm'>Call me at:</p>
          <a
           href='https://wa.me/+62895632980009?text=Hai%2C+saya+ingin+konsultasi+andalalin'
-          target='_blank'>
+          target='_blank'
+          className='text-sm hover:text-[#3F72AF]'>
           0895632980009
          </a>
         </div>
        </div>
       </div>
      </div>
-     <div className='bg-white lg:w-full lg:h-full rounded-xl shadow-2xl opacity-95 py-10'>
-      <h1 className='font-bold text-2xl lg:text-3xl px-10 font-serif text-[#3F72AF]'>
+     <div className='bg-white w-full rounded-xl shadow-2xl opacity-95 py-6 sm:py-10'>
+      <h1 className='font-bold text-xl sm:text-2xl lg:text-3xl px-6 sm:px-10 font-serif text-[#3F72AF] leading-tight'>
        Dapatkan informasi dan penawaran dari kami
       </h1>
-      <div className='py-10 px-10'>
+      <div className='py-6 sm:py-10 px-6 sm:px-10'>
        <form>
-        <div className='lg:flex lg:flex-row lg:gap-4 lg:justify-between'>
+        <div className='grid grid-cols-2 gap-4 mb-4'>
          <FloatingLabel
-          className='mr-20 mb-4 lg:mb-0'
+          className='w-full'
           variant='outlined'
           label='Your Name'
           type='text'
@@ -58,33 +63,33 @@ const Contact = () => {
           required
          />
          <FloatingLabel
-          className='mr-20 mb-4 lg:mb-0'
+          className='w-full'
           variant='outlined'
           label='Subject'
           type='text'
-          name='user_name'
+          name='subject'
           required
          />
         </div>
-        <div className='lg:flex lg:justify-between gap-4 lg:my-4'>
+        <div className='grid grid-cols-2 gap-4 mb-4'>
          <FloatingLabel
-          className='mr-20 mb-4 lg:mb-0'
+          className='w-full'
           variant='outlined'
           label='Email'
-          type='text'
-          name='user_name'
+          type='email'
+          name='user_email'
           required
          />
          <FloatingLabel
-          className='mr-20 mb-4 lg:mb-0'
+          className='w-full'
           variant='outlined'
           label='Phone Number'
-          type='text'
-          name='user_name'
+          type='tel'
+          name='user_phone'
           required
          />
         </div>
-        <div className='mt-2'>
+        <div className='mb-4'>
          <div className='mb-2 block'>
           <Label
            htmlFor='comment'
@@ -97,15 +102,16 @@ const Contact = () => {
           placeholder='Leave a message...'
           required
           rows={4}
+          className='w-full'
          />
-         <div className='mt-5'>
-          <Button
-           className='bg-[#3F72AF] hover:bg-[#112D4E]'
-           type='submit'
-           value='Send'>
-           Send Message
-          </Button>
-         </div>
+        </div>
+        <div>
+         <Button
+          className='bg-[#3F72AF] hover:bg-[#112D4E] w-full sm:w-auto'
+          type='submit'
+          value='Send'>
+          Send Message
+         </Button>
         </div>
        </form>
       </div>

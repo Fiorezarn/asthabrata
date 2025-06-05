@@ -55,9 +55,11 @@ const Navbar = () => {
   setIsMobileMenuOpen((prev) => !prev);
  }, []);
 
- // Close mobile menu when route changes
+ // Close mobile menu and scroll to top when route changes
  useEffect(() => {
   setIsMobileMenuOpen(false);
+  // Scroll to top of page when route changes
+  window.scrollTo(0, 0);
  }, [location.pathname]);
 
  // Setup scroll listener
